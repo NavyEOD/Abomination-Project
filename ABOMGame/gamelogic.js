@@ -116,7 +116,7 @@ function movePlayer(direction, currentMap) {
         dialogue.innerHTML = dialogueObjects[playerY + "," + playerX];
         console.log(playerY, playerX);
     }
-    currentMap[playerY] = currentMap[playerY].substring(0, playerX) + "P" + currentMap[playerY].substring(playerX + 1);
+    currentMap[playerY] = currentMap[playerY].substring(0, playerX) + "V" + currentMap[playerY].substring(playerX + 1);
 
     // Update the displayed map
     displayMap(currentMap);
