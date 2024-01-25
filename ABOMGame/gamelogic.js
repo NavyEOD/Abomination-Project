@@ -111,7 +111,7 @@ function movePlayer(direction, currentMap) {
 
     // Place the player in the new position
     prevChar = currentMap[playerY][playerX];
-    if (prevChar == "#" || prevChar == "T") || (prevChar == "#" || prevChar == "V") || (prevChar == "#" || prevChar == "?") {
+    if (prevChar == "#" || prevChar == "T" || prevChar == "V" || prevChar == "?") {
         dialogue.style.display = "";
         dialogue.innerHTML = dialogueObjects[playerY + "," + playerX];
         console.log(playerY, playerX);
