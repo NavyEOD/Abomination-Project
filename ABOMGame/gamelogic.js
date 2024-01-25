@@ -60,8 +60,8 @@ var map1 = `                                                                    
 |                                                 |
 +-------------------------------------------------+
 `.split("\n");
-var playerX = 26;
-var playerY = 13;
+var playerX = 13;
+var playerY = 9;
 var prevChar = " ";
 var displayWidth = 20;
 var displayHeight = 15;
