@@ -147,7 +147,7 @@ var dialogueObjects = {
   // BODIES
   "30,103": `A woman lies on the ground, her body cut 43 times. The entire top portion of her head was missing, eaten by a creature of some sorts.<br>Her mouth was stuck in an expression of pain.`,
   "24,122": `A male security guard wearing a standard uniform would be stuck against the wall, rebar piercing his chest.<br>His left arm was still hanging onto the metal.`,
-  "28,125": `The body is unrecognizable, only an arm sticking out from underneath the concrete.`,
+  "30,125": `The body is unrecognizable, only an arm sticking out from underneath the concrete.`,
 
   //UNKNOWNS
   "25,128": `This creature was abhorrent to look at. The body didn't look like it could move at all.<br>Large, scythe-esque arms formed at the wrist and extended for meters.<br>It might even be able to pierce your armor.`,
