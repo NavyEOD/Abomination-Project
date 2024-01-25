@@ -111,7 +111,7 @@ function movePlayer(direction, currentMap) {
 
     // Place the player in the new position
     prevChar = currentMap[playerY][playerX];
-    if (prevChar == "#" || prevChar == "T") {
+    if (prevChar == "#" || prevChar == "T") or (prevChar == "#" || prevChar == "V") or (prevChar == "#" || prevChar == "?") {
         dialogue.style.display = "";
         dialogue.innerHTML = dialogueObjects[playerY + "," + playerX];
         console.log(playerY, playerX);
@@ -135,14 +135,14 @@ var dialogueObjects = {
   "32,91": `The weapons bay is almost completely empty. Not that you needed ammunition, but did they have that many dangers to face?`,
   "30,101": `"Please save us from this madness."`,
   "25,115": `The entire side of the wall has been completely destroyed. Blood and rubble stain the ground. What caused this?`,
-  "22,32": `The elevator seems to be running on auxiliary power. A lever with a light above it is seen inside.`,
+  "36,17": `The elevator seems to be running on auxiliary power. A lever with a light above it is seen inside.`,
   "23,45": `It's a standard Worldsoc humvee. Extra armor plating, better engine, and a better turret on top.<br>It seemed to be under maintenance.`,
   "22,89": `Looked like a lab where samples of whatever needed to be tested on were put under the microscope.<br>It's wrecked.`,
   "11,88": `A double-sided security gate. It was just wide enough for you to pass through.<br>Not that it would matter, with the entire facility being decommissioned.`,
   "4,124": `The cafeteria was empty, left in the midst of a pizza Friday lunch.<br>It was rotting.`,
   "20,133": `The remnants of a Leopard 2A6 main battle tank. The turret was decapitated and set back on the engine of the tank.<br>Whatever caused this might still be around.`,
   "37,110": `The hallway stretches on for a while. Blood and corpses line the floor.`,
-  "30,36": `An enormous mass of flesh, bodies, and carcasses; a mass grave.`,
+  "36,30": `An enormous mass of flesh, bodies, and carcasses; a mass grave.`,
   
   // BODIES
   "30,103": `A woman lies on the ground, her body cut 43 times. The entire top portion of her head was missing, eaten by a creature of some sorts.<br>Her mouth was stuck in an expression of pain.`,
