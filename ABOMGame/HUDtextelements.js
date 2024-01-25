@@ -34,7 +34,14 @@
     </div>
 
     <div id="dialogue">
-        ROVER ACTIVE.<br>
+        INITIALIZING...<br>
+        RUNNING DIAGNOSTICS... RESPONSE OK<br>
+        CHECKING WEAPONS... RESPONSE OK<br>
+        VERIFYING INTEGRITY OF ARMOR... RESPONSE OK<br>
+        ACTIVATING OPTICAL SYSTEMS... RESPONSE OK<br>
+        DIAGNOSING SCANNER SYSTEMS... RESPONSE OK<br>
+        ACTIVATING MOVEMENT SYSTEMS... RESPONSE OK<br>
+        WT-MCH UNIT 01 ONLINE.<br>
         PRESS DIRECTIONAL KEYS TO MOVE.
     </div>
     <script src="geometry.js"></script>
