@@ -143,7 +143,7 @@ var dialogueObjects = {
   "20,133": `The remnants of a Leopard 2A6 main battle tank. The turret was decapitated and set back on the engine of the tank.<br>Whatever caused this might still be around.`,
   "37,110": `The hallway stretches on for a while. Blood and corpses line the floor.`,
   "36,30": `An enormous mass of flesh, bodies, and carcasses; a mass grave.`,
-  "38,8": `Hello, everyone.<br>Thanks for playing this little demo. It was really fun to make, if slightly annoying.<br>Huge thanks to Hellbie for helping me out and providing many of the internal code segments that make this thing work.<br>This will be updated, so if you liked it I recommend you keep it to check in later.<br>Thanks again,<br>NavyEOD_24.`,
+  "36,8": `Hello, everyone.<br>Thanks for playing this little demo. It was really fun to make, if slightly annoying.<br>Huge thanks to Hellbie for helping me out and providing many of the internal code segments that make this thing work.<br>This will be updated, so if you liked it I recommend you keep it to check in later.<br>Thanks again,<br>NavyEOD_24.`,
   
   // BODIES
   "30,103": `A woman lies on the ground, her body cut 43 times. The entire top portion of her head was missing, eaten by a creature of some sorts.<br>Her mouth was stuck in an expression of pain.`,
